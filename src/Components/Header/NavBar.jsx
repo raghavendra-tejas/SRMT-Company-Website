@@ -3,7 +3,6 @@ import LogoTruck from "./Images/Logo-Truck.png"
 
 const NavBar = () => {
   return (
-    
     <div>
       <header class="text-gray-400 bg-gradient-to-r from-white to-sky-900 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -18,12 +17,12 @@ const NavBar = () => {
             <span class="ml-3 font-blackopsone text-gray-800 text-4xl">SRMT</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-xs justify-center">
-            <a class="mr-5 hover:text-white">Home</a>
-            <a class="mr-5 hover:text-white">About</a>
-            <a class="mr-5 hover:text-white">Services</a>
-            <a class="mr-5 hover:text-white">Contact</a>
+            <a class="mr-4 hover:text-black text-gray-700 cursor-pointer">Home</a>
+            <a class="mr-4 hover:text-black text-gray-700 cursor-pointer">About</a>
+            <a class="mr-4 hover:text-black text-gray-700 cursor-pointer">Services</a>
+            <a class="mr-4 hover:text-black text-gray-700 cursor-pointer">Contact</a>
           </nav>
-          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-sm mt-4 md:mt-0">Get a Quote
+          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-xs mt-4 md:mt-0">Get a Quote
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
