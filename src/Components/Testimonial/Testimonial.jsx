@@ -22,7 +22,7 @@ const Testimonial = () => {
           </p>
           <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
           <h2 class="text-white font-medium title-font tracking-wider text-sm">
-            RANGANATH KN
+            RANGANATH K.N
           </h2>
           <p class="text-gray-500">Founder and MD</p>
         </div>
